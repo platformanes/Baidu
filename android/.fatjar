@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Mon Nov 03 11:11:04 CST 2014
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=D\:\\\u6211\u7684\u6587\u6863\\\u684C\u9762\\BaiduGame_fat.jar
+manifest.mergeall=true
+manifest.mainclass=
+manifest.file=<createnew>
+jarname.isextern=true
+onejar.expand=
+excludes=
+includes=

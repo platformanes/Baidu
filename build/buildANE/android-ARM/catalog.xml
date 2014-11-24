@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+    <versions>
+        <swc version="1.2"/>
+        <flex version="4.7.0" build="348902" minimumSupportedVersion="3.0.0"/>
+        <compiler name="ActionScript Compiler" version="2.0.0" build="348902"/>
+    </versions>
+    <features>
+        <feature-script-deps/>
+    </features>
+    <libraries>
+        <library path="library.swf">
+            <script name="us/sanguo/ane/baidu/BaiduExt" mod="1414656379342">
+                <def id="us.sanguo.ane.baidu:BaiduExt"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="TypeError" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="e"/>
+                <dep id="flash.system:Capabilities" type="e"/>
+                <dep id="us.sanguo.ane.baidu.funs:BaiduCont" type="s"/>
+            </script>
+            <script name="us/sanguo/ane/baidu/enum/BaiduFunction" mod="1414728252379">
+                <def id="us.sanguo.ane.baidu.enum:BaiduFunction"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="us/sanguo/ane/baidu/funs/BaiduCont" mod="1416552432005">
+                <def id="us.sanguo.ane.baidu.funs:BaiduCont"/>
+                <dep id="Function" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="TypeError" type="e"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="s"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="us.sanguo.ane.baidu.enum:BaiduFunction" type="e"/>
+            </script>
+            <digests>
+                <digest type="SHA-256" signed="false" value="8ed8142902c7d7094a128891483832f25dcb6f1fd0033fd3f20d984408b90bf1"/>
+            </digests>
+        </library>
+    </libraries>
+</swc>

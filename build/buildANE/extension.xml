@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension xmlns="http://ns.adobe.com/air/extension/3.5">
+  <id>us.sanguo.ane.baidu</id>
+  <versionNumber>1</versionNumber>
+  <platforms>
+  
+    <platform name="Android-ARM">
+      <applicationDeployment>
+        <nativeLibrary>baidugame.jar</nativeLibrary>
+        <initializer>us.sanguo.ane.baidu.BaiduGame</initializer>
+        <finalizer>us.sanguo.ane.baidu.BaiduGame</finalizer>
+      </applicationDeployment>
+    </platform>
+    
+  </platforms>
+</extension>
